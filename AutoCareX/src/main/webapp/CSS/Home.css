@@ -1,0 +1,305 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body.home-page {
+    background-color: #f5f5f5;
+}
+
+/* Hero Section */
+.home-page .hero {
+    min-height: 450px;
+    background:
+        linear-gradient(rgba(10, 25, 45, 0.72), rgba(10, 25, 45, 0.72)),
+        url("https://varr.com.tr/files/otoservisjpg_09-01-2024_14-15-40.jpg");
+
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding: 60px 20px;
+}
+
+.home-page .hero-content {
+    max-width: 750px;
+}
+
+.home-page .hero h1 {
+    font-size: 42px;
+    margin-bottom: 18px;
+}
+
+.home-page .hero p {
+    font-size: 17px;
+    line-height: 1.7;
+    margin-bottom: 30px;
+}
+
+.home-page .btn {
+    display: inline-block;
+    background-color: #f39c12;
+    color: #102a43;
+    padding: 13px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.home-page .btn:hover {
+    background-color: white;
+    color: #102a43;
+}
+
+/* Features */
+.home-page .features {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 30px 7%;
+    background-color: white;
+}
+
+.home-page .feature {
+    flex: 1 1 180px;
+    text-align: center;
+    padding: 15px;
+}
+
+.home-page .feature h3 {
+    color: #142b45;
+    margin-bottom: 8px;
+}
+
+.home-page .feature p {
+    color: #666;
+    font-size: 14px;
+}
+
+/* Services */
+.home-page .services {
+    padding: 65px 7%;
+    text-align: center;
+}
+
+.home-page .services h2,
+.home-page .about h2,
+.home-page .why-us h2,
+.home-page .contact h2 {
+    color: #142b45;
+    font-size: 29px;
+    margin-bottom: 12px;
+}
+
+.home-page .subtitle {
+    color: #666;
+    margin-bottom: 35px;
+    font-size: 15px;
+}
+
+.home-page .service-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.home-page .card {
+    background-color: white;
+    width: 250px;
+    border-radius: 9px;
+    overflow: hidden;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.12);
+    transition: 0.3s;
+}
+
+.home-page .card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 7px 18px rgba(0,0,0,0.18);
+}
+
+.home-page .card img {
+    width: 100%;
+    height: 165px;
+    object-fit: cover;
+}
+
+.home-page .card-content {
+    padding: 18px 15px;
+}
+
+.home-page .card h3 {
+    color: #243f5c;
+    margin-bottom: 10px;
+}
+
+.home-page .card p {
+    color: #666;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.home-page .view-btn {
+    display: inline-block;
+    margin-top: 35px;
+    padding: 12px 25px;
+    background-color: #142b45;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.home-page .view-btn:hover {
+    background-color: #f39c12;
+    color: #102a43;
+}
+
+/* About Us */
+.home-page .about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 45px;
+    padding: 65px 8%;
+    background-color: #e8edf2;
+}
+
+.home-page .about-image,
+.home-page .about-content {
+    flex: 1;
+}
+
+.home-page .about-image img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+}
+
+.home-page .about-content p {
+    color: #555;
+    line-height: 1.8;
+    margin: 15px 0;
+}
+
+/* Why Choose Us */
+.home-page .why-us {
+    text-align: center;
+    padding: 65px 7%;
+}
+
+.home-page .why-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 22px;
+    margin-top: 30px;
+}
+
+.home-page .why-card {
+    flex: 1 1 230px;
+    max-width: 320px;
+    background-color: white;
+    padding: 25px 20px;
+    border-radius: 9px;
+    border-bottom: 4px solid #f39c12;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.10);
+}
+
+.home-page .why-card h3 {
+    color: #142b45;
+    margin-bottom: 12px;
+}
+
+.home-page .why-card p {
+    color: #666;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+/* Contact */
+.home-page .contact {
+    text-align: center;
+    padding: 55px 20px;
+    background-color: #e8edf2;
+}
+
+.home-page .contact p {
+    color: #555;
+    margin: 12px;
+}
+
+.home-page .contact-details {
+    margin-top: 20px;
+}
+
+/* Footer */
+.home-page footer {
+    background-color: #142b45;
+    color: white;
+    text-align: center;
+    padding: 25px 15px;
+}
+
+.home-page footer h3 {
+    color: #f39c12;
+    margin-bottom: 10px;
+}
+
+.home-page footer p {
+    margin: 8px;
+    font-size: 14px;
+}
+
+/* Responsive */
+@media (max-width: 700px) {
+    .home-page .hero {
+        min-height: 380px;
+    }
+
+    .home-page .hero h1 {
+        font-size: 30px;
+    }
+
+    .home-page .hero p {
+        font-size: 15px;
+    }
+
+    .home-page .about {
+        flex-direction: column;
+        padding: 40px 7%;
+        gap: 25px;
+    }
+
+    .home-page .about-image {
+        width: 100%;
+    }
+
+    .home-page .about-image img {
+        height: 230px;
+    }
+
+    .home-page .services,
+    .home-page .why-us {
+        padding: 45px 5%;
+    }
+
+    .home-page .card {
+        width: 100%;
+        max-width: 350px;
+    }
+}

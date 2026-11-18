@@ -1,0 +1,93 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.register-page {
+    font-family: Arial, sans-serif;
+    background-color: #dbeafe;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+/* Form */
+.register-page form {
+    background-color: white;
+    width: 350px;
+    padding: 28px 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.12);
+    border-top: 5px solid #f39c12;
+    margin: auto;
+}
+
+.register-page h2 {
+    color: #f39c12;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.register-page label {
+    display: block;
+    color: #102a43;
+    font-weight: bold;
+    margin-bottom: 7px;
+}
+
+.register-page input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 12px;
+    font-size: 14px;
+    outline: none;
+}
+
+.register-page input:focus {
+    border-color: #f39c12;
+}
+
+.register-page button {
+    width: 100%;
+    padding: 11px;
+    background-color: #102a43;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.register-page button:hover {
+    background-color: #f39c12;
+    color: #102a43;
+}
+
+.register-page p {
+    text-align: center;
+    margin-top: 20px;
+    color: #444;
+    font-size: 14px;
+}
+
+.register-page a {
+    color: #e67e00;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.register-page a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 480px) {
+    .register-page form {
+        width: 90%;
+        padding: 25px 22px;
+    }
+}
