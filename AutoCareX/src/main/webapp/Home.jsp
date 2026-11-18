@@ -46,7 +46,7 @@
 
             <p>
                 Your vehicle deserves the best care.
-                We provide reliable, professional and affordable car services.
+                We provide reliable, professional and, affordable car services.
             </p>
 
             <% if(email == null) { %>
